@@ -155,7 +155,7 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/your-username/menu-api.git](https://github.com/your-username/menu-api.git)
+git clone https://github.com/byOlexandra/menu-api.git
 cd menu-api
 
 ```
