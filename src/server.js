@@ -39,6 +39,13 @@ app.use(logger);
 app.use(cors());
 app.use(helmet());
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'Welcome to the Coffee Shop Menu API! Use /menu to get all products.'
+  });
+});
+
 app.use(menuRoutes);
 
 app.use(notFoundHandler);
